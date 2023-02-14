@@ -11,7 +11,7 @@ artist_1 = Artist("Elvis", "Presley")
 artist_repository.save(artist_1)
 
 
-album_1 = Album("Jailhouse Rock", "Rock")
+album_1 = Album("Jailhouse Rock", "Rock", artist_1)
 album_repository.save(album_1)
 
 
